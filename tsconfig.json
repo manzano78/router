@@ -1,23 +1,14 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
-    "jsx": "react",
-    "module": "es6",
-    "moduleResolution": "node",
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "strictNullChecks": true,
     "target": "es5",
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "lib": ["esnext", "dom", "dom.iterable"],
-    "downlevelIteration": true,
+    "module": "commonjs",
     "declaration": true,
-    "outDir": "dist"
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["es2015", "dom"]
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }

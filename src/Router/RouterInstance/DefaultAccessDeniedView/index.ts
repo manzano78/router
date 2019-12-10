@@ -1,0 +1,1 @@
+export { DefaultAccessDeniedView } from './DefaultAccessDeniedView'

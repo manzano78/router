@@ -1,17 +1,16 @@
+export { Router } from './Router'
 export {
-  Route,
-  Breadcrumb,
-  Router,
-  ModalContainer,
-  useHistory,
-  useMainHistory,
-  useIsInModal,
-  useIsModalOpen,
-  useLocation,
-  useRoute,
-  useCloseModal,
-  useCloseModalSilently,
-  useOpenModal,
-  useBreadcrumb,
-  useModalOptions
-} from './Router'
+  IRouterProps,
+  IDisplayableRouteConfig,
+  TRouteConfig,
+  IRedirectionRouteConfig,
+  IModalComponentProps
+} from './Router-types'
+export {
+  TFallback,
+  ICancellation,
+  TRouteAsyncDataConfig,
+  TBreadcrumbItemAsyncDataConfig,
+  IErrorProps,
+  TGetFallback
+} from './RouterInstance'
